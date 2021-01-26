@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR" || exit 1
+openvpn3 session-start --config openvpn-mst-edu.ovpn
